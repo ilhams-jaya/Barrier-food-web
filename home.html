@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/icon.png" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="home.css">
+  <title>Wish and Dream</title>
+</head>
+<body>
+  <div class="wd__home" id="home">
+    <div class="wd__home-navbar section__padding">
+     <div class="wd__home-navbar_logo">
+       <img src="./assets/W&D.png" alt="logo">
+     </div>
+     <div class="wd__home-navbar_links">
+       <a class="active" href="home">Home</a>
+       <a href="">Gallery</a>
+       <a href="pricelist.html">Pricelist</a>
+       <a href="">Testimoni</a>
+       <a href="">About</a>
+       <a href="">Contact</a>
+       <a href="">Payment</a>
+     </div>
+     
+      <div class="wd__home-navbar_sign">
+        <a href="">Sign in</a>
+        <button>Sign up</button>
+      </div>
+      <div class="wd__home-navbar_group">
+        <div class="wd__home-navbar_menu">
+          <img class="wd__home-navbar_menu-burger" src="./assets/burger.png" >
+          <div class="wd__home-navbar_menu-dropdown" id="dropdownMenu">
+            <a href="home">Home</a>
+            <a href="">Gallery</a>
+            <a href="pricelist.html">Pricelist</a>
+            <a href="">Testimoni</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Payment</a>
+            <a href="">Sign in</a>
+            <button>Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wd__home-content">
+      <div data-aos="fade-right" class="wd__home-content_text">
+        <h1>Create a special moment for your wedding</h1>
+        <p>We provide a variety of wedding needs, create your special moment with us</p>
+
+        <a href="#" 
+        onmouseover="document.getElementById('arrow').src='./assets/arrow.png'"
+        onmouseout="document.getElementById('arrow').src='./assets/Vector1.png'">
+          <p>See all inspiration</p>
+          <img id="arrow" src="./assets/Vector1.png">
+        </a>
+        
+      </div>
+      <div data-aos="fade-left" class="wd__home-content_image">
+        <img src="./assets/home1.jpg">
+      </div>
+    </div>
+    <div class="wd__home-content_bottom">
+      <div data-aos="fade-right" class="wd__home-content_bottom-left">
+        
+          <img class="left" src="./assets/home2.jpg" ">
+          <h1>Get inspirational ideas for your wedding</h1>
+          <p>Get various kinds of wedding party inspiration with various cultures.</p>
+        
+        
+      </div>
+      <div data-aos="fade-left" class="wd__home-content_bottom-right">
+        
+        
+          <img src="./assets/home3.jpg">
+          <h1>Every beautiful moment must be remembered</h1>
+          <p>99+ couples have entrusted their wedding to us.</p>
+        
+      </div>
+    </div>
+    <div class="wd__home-footer section__padding">
+      <h3>Wish and Dream</h3>
+      <div class="wd__home-footer_social">
+        <a class="link" href="#">
+          <img src="./assets/ig.png">
+          <p>wd_weddingplanner</p>
+        </a>
+      </div>
+      <div class="wd__home-footer_social">
+        <a class="link" href="#">
+          <img src="./assets/wa.png">
+          <p>087724109190</p>
+        </a>
+      </div>
+      <div class="wd__home-footer_social">
+        <a class="link" href="#">
+          <img src="./assets/mail.png">
+          <p>wishdreamplann@gmail.com</p>
+        </a>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
